@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color:lightgrey;
 }
 
 header {
@@ -12,13 +13,16 @@ header {
     padding: 20px;
 }
 
+
 nav ul {
     list-style-type: none;
     padding: 70px;
 }
 
 nav li {
+    display: inline;
     margin: 10px;
+
 }
 
 nav a {
@@ -33,22 +37,22 @@ section {
 }
 
 .section-blue {
-    background-color: #3498db;
+    background-color:deepskyblue;
 }
 
 .section-green {
-    background-color: #2ecc71;
+    background-color:limegreen;
 }
 .section-yellow {
-    background-color: #b4cc2e;
+    background-color:darkcyan;
 }
 
 .section-orange {
-    background-color: #e67e22;
+    background-color:chocolate;
 }
 
 .section-purple {
-    background-color: #9b59b6;
+    background-color:blueviolet;
 }
 
 footer {
